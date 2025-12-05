@@ -7,7 +7,7 @@
     },
     {
         "image": "image2.png",
-        "title": "Mon Vieux grimoire",
+        "title": "Eco Bliss Bath",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "#"
     },
@@ -15,6 +15,6 @@
         "image": "image3.png",
         "title": "Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "link": "#https://github.com/LucasTool/Kasa"
     }
 ]
