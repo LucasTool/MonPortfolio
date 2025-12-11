@@ -36,9 +36,16 @@
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
     },
     {
-        "image": "test.png",
-        "alt": "HTML - CSS",
-        "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "image": "cypress_logo_social.png",
+        "alt": "Cypress",
+        "title": "Test automatisé",
+        "text": "Création de tests e2e simples avec Cypress pour vérifier les fonctionnalités principales d'un site web et détecter d'eventuelles anomalies"
+    },
+
+    {
+        "image": "Jira-logo.png",
+        "alt": "Jira",
+        "title": "Gestion des bugs et suivi de projet",
+        "text": "Utilisation de Jira pour suivre les tâches, déclarer des bugs et collaborer avec l'équipe dans un environnement Agile"
     }
 ]

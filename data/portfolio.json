@@ -7,17 +7,17 @@
         "link": "#"
     },
     {
-        "image": "image2.png",
+        "image": "Eco-logo.png",
         "alt": "Projet Eco Bliss Bath",
         "title": "Eco Bliss Bath",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "link": "https://github.com/LucasTool/Eco-Bliss-Bath"
     },
     {
         "image": "image3.png",
         "alt": "Projet Kasa",
         "title": "Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#https://github.com/LucasTool/Kasa"
+        "link": "https://github.com/LucasTool/Kasa"
     }
 ]
