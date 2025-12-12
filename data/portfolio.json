@@ -10,14 +10,24 @@
         "image": "Eco-logo.png",
         "alt": "Projet Eco Bliss Bath",
         "title": "Eco Bliss Bath",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Réalisation de tests e2e avec Cypress pour vérifier les parcours utilisateurs, détecter des anomalies et sécuriser les fonctionnalités clés du site Eco Bliss Bath",
         "link": "https://github.com/LucasTool/Eco-Bliss-Bath"
     },
     {
         "image": "image3.png",
         "alt": "Projet Kasa",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Développement d'une application React de location d'appartements, avec gestion des routes, des composants dynamiques et rendu des données via des fichiers JSON",
         "link": "https://github.com/LucasTool/Kasa"
+    },
+
+    {
+        "image": "strategie-test.png",
+        "alt": "Projet Stratégie de Test",
+        "title": "Stratégie de Test",
+        "text": "Conception d’une stratégie de test complète : revue d’exigences, scénarios, méthodes, planification et cahier de recette.",
+        "link": "strategie-tests.html"
     }
+
+
 ]

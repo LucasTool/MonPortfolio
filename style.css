@@ -28,8 +28,8 @@
     max-height: 900px;
     background-image:
     linear-gradient(
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
     ),
     url("images/detective-1424831_1920.png");
     background-size: cover;
@@ -57,6 +57,9 @@
 /* about */
 .imageAboutPage {
     width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .imageAboutPage {
     border-radius: 50%;
@@ -110,4 +113,103 @@
 
 .navbar .nav-link {
     color: white !important;
+}
+
+
+#strategie-page {
+    max-width: 900px;
+    margin: 120px auto 60px auto;
+    padding: 20px 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+}
+
+
+#strategie-page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #0d6efd;
+}
+
+#strategie-page h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+#strategie-page h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #198754;
+}
+
+
+#strategie-page p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+
+#strategie-page ul {
+    padding-left: 20px;
+}
+
+#strategie-page ul li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+    color: #333;
+}
+
+
+#strategie-page a.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+#strategie-page .btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+#strategie-page .btn-secondary {
+    margin-top: 10px;
+}
+
+
+#strategie-page .text-center {
+    text-align: center;
+}
+
+#strategie-page .btn {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.btn-custom {
+    background-color: #198754; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #146c43; 
+    color: white;
+    transform: translateY(-3px);
+}
+
+.btn-custom {
+    margin-bottom: 15px; /* espace entre chaque bouton */
 }
