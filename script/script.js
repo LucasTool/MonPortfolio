@@ -61,43 +61,46 @@ function createSkillsFromJSON() {
 }
 // Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
-    const container = document.querySelector("#portfolio .container");
-    let row = document.createElement("div");
-    row.classList.add("row");
+    const carouselInner = document.getElementById("portfolio-carousel-inner");
+    if (!carouselInner) return;
 
     // Load the JSON file
     fetch("data/portfolio.json")
-        .then((response) => response.json())
-        .then((data) => {
-            // Iterate through the JSON data and create HTML elements
+        .then(response => response.json())
+        .then(data => {
             data.forEach((item, index) => {
-                const card = document.createElement("div");
-                card.classList.add("col-lg-4", "mt-4");
-                card.innerHTML = `
-                    <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" alt="${item.alt}" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title">${item.title}</h3>
-                        <p class="card-text">${item.text}</p>
-                        <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success" target="_blank" rel="noopener"> Voir le projet ${item.title}</a>
-                        </div>
-                    </div>
-                </div>
-                `;
+                const slide = document.createElement("div");
+                slide.classList.add("carousel-item");
+                if (index === 0) slide.classList.add("active");
 
-                // Append the card to the current row
-                row.appendChild(card);
+                slide.innerHTML = `
+                     <div class="portfolio-slide image-hover">
+    
+    <img 
+      src="images/${item.image}" 
+      alt="${item.alt}" 
+      class="portfolio-image"
+    />
 
-                // If the index is a multiple of 3 or it's the last element, create a new row
-                if ((index + 1) % 3 === 0 || index === data.length - 1) {
-                    container.appendChild(row);
-                    row = document.createElement("div");
-                    row.classList.add("row");
-                }
+    <div class="portfolio-overlay">
+      <h3 class="portfolio-title">${item.title}</h3>
+      <p class="portfolio-tech">Technos : ${item.tech || "Tests, QA, Web"}</p>
+      <p class="portfolio-desc">${item.text}</p>
+
+      <a href="${item.link}" class="btn-custom" target="_blank" rel="noopener">
+        Voir le projet
+      </a>
+    </div>
+
+  </div>
+`;
+
+                carouselInner.appendChild(slide);
             });
         });
 }
+
+
 
 // Call the functions to execute the code
 handleNavbarScroll();
