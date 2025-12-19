@@ -278,7 +278,7 @@
 #portfolioCarousel {
     max-width: 1000px;
     margin: 40px auto;
-    padding: 0 80px;
+    padding: 0 10px;
     position: relative;
 }
 
@@ -379,3 +379,6 @@
     max-width: 700px;
     margin-bottom: 20px;
 }
+
+
+
