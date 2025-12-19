@@ -1,13 +1,13 @@
 [
     {
-        "image": "Eco-logo.png",
+        "image": "Eco-bliss.webp",
         "alt": "Projet Eco Bliss Bath",
         "title": "Eco Bliss Bath",
         "text": "Réalisation de tests e2e avec Cypress pour vérifier les parcours utilisateurs, détecter des anomalies et sécuriser les fonctionnalités clés du site Eco Bliss Bath",
         "link": "https://github.com/LucasTool/Eco-Bliss-Bath"
     },
     {
-        "image": "image3.png",
+        "image": "Kasa.webp",
         "alt": "Projet Kasa",
         "title": "Kasa",
         "text": "Développement d'une application React de location d'appartements, avec gestion des routes, des composants dynamiques et rendu des données via des fichiers JSON",

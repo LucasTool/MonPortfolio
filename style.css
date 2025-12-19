@@ -31,7 +31,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     ),
-    url("images/detective-1424831_1920.png");
+    url("images/Header.webp");
     background-size: cover;
     position: relative;
     background-position: top;
@@ -109,7 +109,7 @@
     margin-top: 30px;
 }
 
-.info-box h4 {
+.info-box .info-label {
     font-size: 0.9rem;
     font-weight: 300;
     margin-bottom: 5px;
@@ -255,10 +255,7 @@
     margin: 40px auto;
 }
 
-.portfolio-slide {
- border-radius: 6px;
- overflow: hidden;
-}
+
 
 .btn-custom {
     background-color: transparent;
@@ -277,22 +274,37 @@
 }
 
 /* Flèches */
-#portfolioCarousel .carousel-control-prev-icon,
-#portfolioCarousel .carousel-control-next-icon {
-    background-color: white;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    filter: none;
+#portfolioCarousel {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 80px;
+    position: relative;
 }
+
+#portfolioCarousel .carousel-control-prev,
+#portfolioCarousel .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 119, 181, 0.9);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
 
 /* Position flèches */
 #portfolioCarousel .carousel-control-prev {
-    left: -70px;
+    left: 0px;
 }
 
 #portfolioCarousel .carousel-control-next {
-    right: -70px;
+    right: 0px;
+}
+
+#portfolioCarousel .carousel-control-prev:hover,
+#portfolioCarousel .carousel-control-next:hover {
+    background-color: rgba(0, 85, 130, 1);
 }
 
 #portfolioCarousel .carousel-inner {
